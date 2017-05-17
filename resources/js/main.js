@@ -1,3 +1,11 @@
+/*
+to do
+check dealer blackjack when ace showing
+split double surrender?
+*/
+
+
+
 var DEBUG = true;
 
 var numDecks = 4;
@@ -9,6 +17,8 @@ var DEALER = new Player("dealer",0,true);
 var DECK = new Deck(5);
 
 var playing = false;
+
+
 // ----------------------------------------------------------------------------
 // ------------------------------EVENT LISTENERS-------------------------------
 // ----------------------------------------------------------------------------
